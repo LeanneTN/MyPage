@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Personal Resume</title>
 </head>
 <body>
-    <h2>Tian Liang</h2>
-    <img src='pics/email.png' height="15" padding-top="5"> tianliang_@outlook.com  leannetien@foxmail.com  8209200228@csu.edu.cn
+    <h1>Tian Liang</h1>
+    <hr>
+    <img src='../pics/email.png' height="15" padding-top="5"> tianliang_@outlook.com  leannetien@foxmail.com  8209200228@csu.edu.cn
     <br>
-    <img src='pics/github.png' height="15"> <a href="https://github.com/LeanneTN">LeanneTN</a>
+    <img src='../pics/github.png' height="15"> <a href="https://github.com/LeanneTN">LeanneTN</a>
     <br>
-    <img src='pics/gitee.svg' height='15'> <a href="https://gitee.com/geek-code-23">LeanneTN</a>
+    <img src='../pics/gitee.svg' height='15'> <a href="https://gitee.com/geek-code-23">LeanneTN</a>
 
     
     <h2>Technical Skills</h2>
     <hr>
 
-    <table id="skillTable">
+    <table class="skillTable">
         <tr>
             <td> Machine Learning </td>
             <td> Deep Learning </td>
@@ -52,10 +53,10 @@
     <p>Bachelor of Software Engineer, Computing School</p>
     <p>Average Score<br>
         total: 88.35<br>
-        <table>
+        <table class="skillTable" id="scoreTable">
             <tr>
-                <td>Semester</td>
-                <td>Score</td>
+                <th>Semester</th>
+                <th>Score</th>
             </tr>
             <tr>
                 <td>2020Fall</td>
@@ -81,7 +82,7 @@
     <h3>2021-2024</h3>
     <p>
         As a member of the laboratory of Prof Li Kuang in Central South University.<br>
-        <a href="https://faculty.csu.edu.cn/kuangli/en/index.htm">Prof.Kuang's Main Page</a>
+        <a href="https://faculty.csu.edu.cn/kuangli/en/index.htm">Prof.Kuang's Home Page</a>
     </p>
     <h4>Research Directions</h4>
     <ul>
@@ -130,7 +131,7 @@
         A set of models which were trained to test the potential software defects by measuring the different indicators of software, including docs and the number of lines of each module.
     </p>
     <hr>
-    <h3>### Coco-Video | 2021.11~2022.5</h3>
+    <h3>Coco-Video | 2021.11~2022.5</h3>
     <p>
         A video portrait segment system based on MobileNet-V3, which can both be used in terminal and a graphical interface. The whole system is developed by C++ and python. It won the Central China Region Third Prize of Service Outsourcing Innovation and Entrepreneurship Competition and the Third Prize of ShengHua Cup which held by Central South University.
     </p>
@@ -150,6 +151,7 @@
     </ul>
 
     <h2>Additional Info</h2>
+    <hr>
     <ul>
         <li>Learn Japanese as second foreign language and prepare to learn my third foreign language</li>
         <li>Love outdoor activities and adventure travel and have been to few countries before pandemic</li>

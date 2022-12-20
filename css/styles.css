@@ -1,0 +1,54 @@
+body{
+    width: 70%;
+    margin: auto;
+}
+
+table.skillTable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.skillTable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.skillTable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+#scoreTable td, th{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #666666;
+}
+
+a:hover{
+    color: rgb(60, 30, 117);
+}
+
+a:visited{
+    color: #666666;
+}
+
+.home_body{
+    background-image: url('../pics/bg1.webp');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: auto;
+}
