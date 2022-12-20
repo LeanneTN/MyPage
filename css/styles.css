@@ -47,8 +47,24 @@ a:visited{
 }
 
 .home_body{
-    background-image: url('../pics/bg1.webp');
+    background-image: url('../pics/bg2.jpg');
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
     background-position: auto;
+    background-position: center 0;
+    background-color: rgb(55, 53, 53);
+    position: relative;
+    z-index: -1;
+}
+
+.home_body .mask{
+    background-color: rgba(216, 201, 201, 0.8);
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    backdrop-filter: 20px;
+    position: relative;
 }
