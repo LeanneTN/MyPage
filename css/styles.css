@@ -35,11 +35,11 @@ a{
 }
 
 a:link{
-    color: #666666;
+    color: #7c57c6;
 }
 
 a:hover{
-    color: rgb(60, 30, 117);
+    color: rgb(170, 5, 5);
 }
 
 a:visited{
@@ -70,4 +70,29 @@ a:visited{
 
 #home_screen{
     background-color:  rgba(216, 201, 201, 0);
+}
+
+.title{
+    color: dodgerblue;
+}
+
+.logobar_icse{
+    width: 100%;
+    background-color: rgb(219, 227, 234);
+    background-image: url(../pics/icse2024_Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size:100% 100%; 
+    background-size:100%;
+}
+
+.logobar_icse_img{
+    width: auto\9;
+    height: auto;
+    width: 100%;
+}
+
+.introduce_of_icse{
+    width: 400px;
 }
